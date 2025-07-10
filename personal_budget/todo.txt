@@ -1,0 +1,10 @@
+
+# Write initialize_budget() and add_expense() in budget_state.py
+
+# Write total_expenses() in calculations.py
+
+# Create a budget in main.py and print total expenses
+
+# Add one test in tests.py
+
+# Expand with filters, forecasts, or recurring logic
