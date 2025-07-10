@@ -68,7 +68,7 @@ A simple, functional programming-based personal budgeting app written in Python.
   2. Run python main.py
 
 
-Core Features
+## Core Features
 
   *Add income and expenses.
   
@@ -80,7 +80,8 @@ Core Features
   
   *Recurring expense support via generators
 
-Planned Features
+## Planned Features
+
   *Monthly budget forecasting
   
   *CLI or TUI interface
