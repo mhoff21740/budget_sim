@@ -61,9 +61,8 @@ A simple, functional programming-based personal budgeting app written in Python.
 
   1. Clone the repository:
   
-     ```bash
      git clone https://github.com/your-username/personal_budget.git
-     cd personal_budget
+     
   
   2. Run python main.py
 
