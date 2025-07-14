@@ -1,1 +1,6 @@
 # Category filters / categorization logic
+def filter_by_category(expenses, category):
+    ...
+
+def filter_above_amount(expenses, min_amount):
+    ...

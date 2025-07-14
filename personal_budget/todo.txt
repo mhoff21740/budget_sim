@@ -1,5 +1,4 @@
 
-# Write initialize_budget() and add_expense() in budget_state.py
 
 # Write total_expenses() in calculations.py
 
