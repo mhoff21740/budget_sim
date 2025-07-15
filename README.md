@@ -89,5 +89,5 @@ A simple, functional programming-based personal budgeting app written in Python.
   
   *Save/load budgets from JSON
   
-  *Unit test coverage for all functions
+ 
 
