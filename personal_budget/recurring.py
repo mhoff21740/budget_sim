@@ -1,5 +1,9 @@
  # Generator functions for recurring expenses
  
-def rent_generator(amount):
+def recurring_expense(category,amount):
     while True:
-        yield {"category": "rent", "amount": amount}
+        yield {"category": category, "amount": amount}
+
+
+
+
