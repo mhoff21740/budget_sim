@@ -21,14 +21,26 @@ def add_expense(budget, category, amount):
     new_expense["expenses"].append({"category": category, "amount":amount})
     return new_expense
 
-def export_expenses_to_csv(budget, filename="expenses.csv"):
+
+def export_budget_to_csv(budget, filename="budget_export.csv"):
     expenses = budget["expenses"]
+    income = budget["income"]
+
     with open(filename, mode="w", newline="") as file:
-        writer = csv.DictWriter(file, fieldnames=["category", "amount"])
-        writer.writeheader()
+        writer = csv.writer(file)
+
+        #  Write income row
+        writer.writerow(["income", income])
+
+        #  Write expenses header
+        writer.writerow(["category", "amount"])
+
+        #  Write each expense
         for expense in expenses:
-            writer.writerow(expense)
-    print(f"Expenses exported successfully to {filename}")
+            writer.writerow([expense["category"], expense["amount"]])
+
+    print(f"Budget exported successfully to {filename}")
+
     
     
 

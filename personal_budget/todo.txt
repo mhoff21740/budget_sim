@@ -1,6 +1,5 @@
 
 
-# Write total_expenses() in calculations.py
 
 # Create a budget in main.py and print total expenses
 
