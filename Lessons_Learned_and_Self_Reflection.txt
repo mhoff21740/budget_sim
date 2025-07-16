@@ -1,13 +1,19 @@
 Key Lessons Learned:
-  While developing my personal budgeting application, I gained significant hands-on experience applying functional programming (FP) principles in Python within a structured, multi-file project. This project served as a focused exercise in writing modular, testable code while reinforcing foundational Python concepts such as pure functions, immutability, and functional programming patterns like map(), filter(), and reduce().
+  While developing my personal budgeting application, I gained significant hands-on experience applying functional programming (FP) principles in Python within a structured, multi-file project. 
+  This project focused on writing modular, testable code while reinforcing foundational Python concepts such as pure functions, immutability, and functional programming patterns like map(), filter(), and reduce().
+
 Key Lessons Learned:
   •	Functional Programming Foundations: I deepened my understanding of pure functions, the importance of returning new state rather than mutating existing data, and the practical use of immutability within a real-world context.
   •	Data Processing with FP Tools: I became proficient at using map(), filter(), and reduce() to transform, filter, and aggregate data in clean, readable ways.
-  •	Error Handling and User Input Validation: I built robust error-handling mechanisms to gracefully manage invalid user inputs, improving the application's overall resilience.
-  •	Project Structuring: I practiced structuring a Python project into multiple logically separated files (budget_state.py, calculations.py, categories.py, recurring.py, reporting.py, and main.py), which reinforced best practices in project organization and readability.
+  •	Error Handling and User Input Validation: I built robust error-handling mechanisms to manage invalid user inputs gracefully, improving the application's overall resilience.
+  •	Project Structuring: I practiced structuring a Python project into multiple logically separated files (budget_state.py, calculations.py, categories.py, recurring.py, reporting.py, and main.py), reinforcing best project organization and readability practices.
   •	File I/O: I implemented CSV import/export functionality, learning to handle real-world data persistence while maintaining functional integrity in my code design.
 
 Personal Reflection:
-  At the start of this project, I recognized that initiating a project from scratch—especially in a functional programming style—was a key area for growth. I encountered challenges such as determining where to begin, understanding how to manage state without mutation properly, and ensuring functions stayed pure and predictable. Throughout the project, I relied on guided scaffolding to establish initial direction but progressively developed greater autonomy in troubleshooting, function design, and debugging.
-  A significant takeaway was realizing that feeling “lost” at the beginning of a project is a regular part of the learning process. By consistently engaging with problem-solving, breaking down tasks, and learning to ask the right technical questions, I successfully built a functioning application from end to end.
-This project increased my confidence in writing clean, functional Python code and gave me practical exposure to concepts I can transfer to more complex applications. Moving forward, I am motivated to continue building projects with gradually less guidance, focusing on strengthening project planning skills and increasing my independence in software design.
+  At the start of this project, I recognized that initiating a project from scratch—especially in a functional programming style—was a key area for growth. 
+I encountered challenges such as determining where to begin, understanding how to manage state without mutation properly, and ensuring functions stayed pure and predictable. 
+Throughout the project, I relied on guided scaffolding to establish initial direction but progressively developed greater autonomy in troubleshooting, function design, and debugging.
+  A significant takeaway was realizing that feeling “lost” at the beginning of a project is a regular part of the learning process. 
+By consistently engaging with problem-solving, breaking down tasks, and learning to ask the right technical questions, I successfully built a functioning application from end to end.
+This project increased my confidence in writing clean, functional Python code and gave me practical exposure to concepts I can transfer to more complex applications. 
+Moving forward, I am motivated to continue building projects with gradually less guidance, focusing on strengthening project planning skills and increasing my independence in software design.
